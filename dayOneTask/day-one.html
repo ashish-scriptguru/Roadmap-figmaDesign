@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <title>Day One Task</title>
+
+        <style>
+            body{
+                text-align: center;
+                background: #22C1C3;
+                background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            }
+            ul,ol{
+                list-style-position: inside;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body >
+        <h2>Heading Tag</h2>
+        <p>Pagragraph Tag</p>
+        <a href="www.google.com" alt="Google">Link Tag</a><br>
+        <img src="https://images.pexels.com/photos/33448109/pexels-photo-33448109.jpeg" alt="Image showing..."
+            width="300" />
+
+        <ul >
+            <lt>List Title</lt>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+            <li>List 4</li>
+        </ul>
+        <ol>
+            <lt>List Title</lt>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+            <li>List 4</li>
+        </ol>
+
+        <form method="post" onsubmit="handleClick(event)">
+            <div>Username : <input type="name" required/></div>
+            <div>Password  : <input type="password" required/></div>
+            <button  id="myBtn" >Submit</button>
+        </form>
+
+    </body>
+
+    <script>
+        function handleClick(event){
+            event.preventDefault();
+            alert("Form Successfully Submitted");
+        }
+    </script>
+
+</html>
