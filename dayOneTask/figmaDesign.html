@@ -2,124 +2,8 @@
 <html lang="en">
 <head>
   <title>Figma Design</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    #outer-div1 {
-      display: grid;
-      grid-template-columns: 1fr auto; 
-    }
-
-    #left-image {
-      width: 597px;
-      height: 640px;
-    }
-
-    #right-section {
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      background-color: #fff;
-      align-content: start;
-    }
-
-    .component {
-      background-color: #d1f0e0;
-      width: 335px;
-      height: 160px;
-    }
-
-    .component-lastone{
-      background-color: #378f61;
-      width: 335px;
-      height: 80px;
-      padding: 20px;
-    }
-    
-    #inside-div1{
-        padding: 21px;
-        background-color: rgb(242, 245, 247);
-        color: black; 
-        font-size: 14px;
-    }
-
-    #inside-div2 {
-      background-color: rgb(242, 245, 247);
-      color: black;
-      padding: 21px;
-      font-size: 15px;
-    }
-
-    #inside-div3 {
-      background-color: #fff;
-      color: black;
-      padding: 15px;
-      height: 180px;
-      width: 346px;
-    }
-    #inside-div4 {
-      background-color: #fff;
-      color: black;
-      padding: 10px;
-      height: 190px;
-      width: 355px;
-    }
-    #inside-div5{
-        background-color: #fff;
-        padding: 20px;
-        height: 190px;
-        width: 336px;
-    }
-    #inside-div6-1{
-       background-color: #fff; 
-    }
-    #inside-div6-2{
-       background-color: #fff; 
-    }
-
-    .bar-container {
-      width: 200px; 
-      margin-bottom: 10px;
-    }
-
-    .bar {
-      background-color: #f5f5f7;
-      border-radius: 25px;
-      height: 24px;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .label {
-      background-color: #a8624f;
-      color: white;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: left;
-      padding-left: 20px;
-      font-weight: bold;
-      font-size: 14px;
-      white-space: nowrap;
-      border-radius: 25px 0 0 25px;
-    }
-
-    .facebook { 
-        width: 70%; 
-    }
-    .instagram { 
-        width: 50%; 
-    }
-    .twitter { 
-        width: 30%; 
-    }
-    .snapchat { 
-        width: 60%; 
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="outer-div1">
@@ -130,7 +14,7 @@
     />
 
     <div id="right-section">
-      <div class="component" id="inside-div1">
+      <div class="component" class="component-media" id="inside-div1">
         <h3>ABOUT</h3>
         <pre>
 John is a graduate student at UCLA
@@ -143,7 +27,7 @@ awareness at his school.
         </pre>
       </div>
 
-      <div class="component" id="inside-div2">
+      <div class="component" class="component-media" id="inside-div2">
         <br><br>
         <pre>
 AGE                           28
@@ -154,7 +38,7 @@ LOCATION         Los Angeles, CA
         </pre>
       </div>
 
-      <div class="component" id="inside-div3">
+      <div class="component" class="component-media" id="inside-div3">
         <h3>NEEDS</h3>
         <ul>
           <li>Create deisgns that promote animal adoption</li>
@@ -163,7 +47,7 @@ LOCATION         Los Angeles, CA
         </ul>
       </div>
 
-      <div class="component" id="inside-div4">
+      <div class="component" class="component-media" id="inside-div4">
         <h3>FRUSTRATIONS</h3>
         <ul>
           <li>Some vendors charge way too much for the designs</li>
@@ -172,7 +56,7 @@ LOCATION         Los Angeles, CA
         </ul>
       </div>
 
-      <div class="component" id="inside-div5">
+      <div class="component" class="component-media" id="inside-div5">
 
         <h3>SOCIAL MEDIA ACTIVITY</h3>
 
@@ -202,17 +86,17 @@ LOCATION         Los Angeles, CA
       </div>
 
       <div id="outer-div2">
-        <div class="component-lastone" id="inside-div6-1">
+        <div class="component-lastone"  class="component-media" id="inside-div6-1">
             <h3>CURRENT FEELINGS</h3>
             <ul>
                 <li style="list-style-type: none; font: bold"><span style="font-weight: 1000;">Stressed</span> Concered Busy</li>
             </ul>
             <h3>PERSONALITY</h3>
-            <button style="background-color: rgb(242, 245, 247); padding: 7px; border: hidden;">PASSIONATE</button>
-            <button style="background-color: rgb(242, 245, 247); padding: 7px; border: hidden">MOTIVATIONAL</button><br>
-            <button style="background-color: rgb(242, 245, 247); padding: 7px; border: hidden">GIVING</button>
-            <button style="background-color: rgb(242, 245, 247); padding: 7px; border: hidden; margin-top: 3px;">LOVING</button>
-            <button style="background-color: rgb(242, 245, 247); padding: 7px; border: hidden">OPTIMISTIC</button>
+            <button style="background-color: rgb(242, 245, 247); padding: 4px; border: hidden;">PASSIONATE</button>
+            <button style="background-color: rgb(242, 245, 247); padding: 4px; border: hidden">MOTIVATIONAL</button><br>
+            <button style="background-color: rgb(242, 245, 247); padding: 4px; border: hidden">GIVING</button>
+            <button style="background-color: rgb(242, 245, 247); padding: 4px; border: hidden; margin-top: 3px;">LOVING</button>
+            <button style="background-color: rgb(242, 245, 247); padding: 4px; border: hidden">OPTIMISTIC</button>
       </div>
 
     </div>
